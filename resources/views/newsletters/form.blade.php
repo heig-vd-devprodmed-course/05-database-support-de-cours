@@ -1,11 +1,11 @@
-@extends('template_newsletter')
+@extends('template')
 
 @section('titre')
 	Inscription Newsletter
 @endsection
 
 @section('contenu')
-	<form method="POST" action="{{ url('newsletter') }}">
+	<form method="POST" action="{{ url('newsletters') }}">
 		@csrf
 		<input
 			name="email"
@@ -20,4 +20,4 @@
 
 		<button type="submit">Envoyer</button>
 	</form>
-@endsection 
+@endsection

@@ -7,14 +7,23 @@ use App\Http\Requests\NewsletterRequest;
 
 class NewsletterController extends Controller
 {
-	public function rendFormulaire()
+	public function form()
 	{
-		return view('view_newsletter_formulaire');
+		return view('newsletters.form');
 	}
 
-	public function traiteFormulaire(NewsletterRequest $request)
+	public function create(NewsletterRequest $request)
 	{
 		Newsletter::create(['email' => $request->email]);
-		return view('view_newsletter_confirm_inscription');
+		return redirect()
+			->route('newsletters.index')
+			->with('success', 'Inscription réussie !');
+	}
+
+	// Affiche la liste des emails inscrits
+	public function index()
+	{
+		$newsletters = Newsletter::all();
+		return view('newsletters.index', compact('newsletters'));
 	}
 }
