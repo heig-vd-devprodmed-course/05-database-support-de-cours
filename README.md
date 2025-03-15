@@ -10,7 +10,8 @@ utilisé pour tous les exercices et support de cours de DévProdMéd.
 Les prérequis suivants sont nécessaires pour lancer le projet en local :
 
 - [PHP](https://www.php.net/downloads) (version 8.4.4 ou supérieure)
-- [Laravel](https://laravel.com/docs/8.x/installation) (version 5.14.0 ou supérieure)
+- [Laravel](https://laravel.com/docs/8.x/installation) (version 5.14.0 ou
+  supérieure)
 - [Composer](https://getcomposer.org/download/) (version 2.8.6 ou supérieure)
 
 ### Démarer l'application pour le développement en local
@@ -60,8 +61,8 @@ code dans VSCode :
   npm install
   ```
 
-Si ça fonctionne, c'est grace aux fichier `.prettierrc` et `.vscode/settings.json`
-qui sont déjà configurés pour le projet.
+Si ça fonctionne, c'est grace aux fichier `.prettierrc` et
+`.vscode/settings.json` qui sont déjà configurés pour le projet.
 
 ## Pour personnes qui enseignent avec connaissance de Docker et devcontainer
 
