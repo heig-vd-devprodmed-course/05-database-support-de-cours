@@ -1,7 +1,7 @@
-# Template Laravel
+# Résultat du support de cours du jour 5 - Database
 
-Ce projet est un template Laravel pour démarrer un projet rapidement, il sera
-utilisé pour tous les exercices et support de cours de DévProdMéd.
+Ce projet est le résultat du support de cours du
+[jour 5 - Database](https://github.com/heig-vd-devprodmed-course/heig-vd-devprodmed-course/blob/main/05-database/02-support-de-cours/SUPPORT_DE_COURS.md)
 
 ## Pour personnes qui étudient ou sans connaissance de Docker et devcontainer
 
